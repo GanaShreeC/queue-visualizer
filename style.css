@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+.controls-container {
+    text-align: center;
+    background-color: #000000;
+    color: #070000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #00d4fa;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+.queue-container {
+    padding: 180px;
+    text-align: center;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #07eaf1;
+    border-radius: 10px;
+}
+
+.queue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.queue div {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00caaf;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    margin: 5px;
+    border-radius: 10px; /* Rounded rectangular shape */
+    animation: scale 0.2s linear;
+}
+
+/* Improved visibility - white text on a darker background */
+.queue div {
+    background-color: #00e1ff;
+    color: #000000;
+    border: 2px solid #2c3e50;
+}
